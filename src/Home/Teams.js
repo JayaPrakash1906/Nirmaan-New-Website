@@ -31,7 +31,7 @@ function Teams() {
             <Navbar />
             <div className="mt-[88px]">
                 <div className="bg-green-100">
-                        <div className="pt-5 pl-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Teams</span></div>
+                        <div className="pt-5 pl-5 flex"><span><a href="/" className="text-gray-600 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Teams</span></div>
                         <h2 className="md:text-5xl font-semibold text-green-600 pt-7 pb-6 text-center sm:text-3xl">All Startups</h2>
                         <div className="ml-2">
                         <select
