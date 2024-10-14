@@ -43,14 +43,14 @@ function Teams() {
                                 <option value="">  Select </option>
                                 <option value="Internship">Active</option>
                                 <option value="Employment">Graduated</option>
-                                <option value="Fulltime">Dropped</option>
+                                
                                 
                         </select> </div>
 </div>                
                 <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-10 mt-10 px-10">
                     {data.map((item, index) => (
                         <div>
-                            <div key={index} className="flex flex-col justify-center items-center p-4" onClick={() => handleEstablish(item)}>
+                            <div key={index} className="flex flex-col justify-center items-center p-4 font-dmsans" onClick={() => handleEstablish(item)}>
                                     <img src={url+item.profile_photo || "default-image.png"} alt={item.name} className="w-[90px] h-[70px]" /><br></br>
                                     <div className="pt-5">{item.project_name || "No Name"}</div>
                             </div>

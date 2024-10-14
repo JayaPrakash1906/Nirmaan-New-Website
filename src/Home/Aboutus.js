@@ -4,7 +4,7 @@ import img1 from '../Assets/what we do image.jpg';
 import img2 from '../Assets/BobyGeorge.jpg';
 import img3 from '../Assets/satyaseshadri.png';
 import img4 from '../Assets/u3ryrzl7506qix6ydqph.webp';
-import img5 from '../Assets/chirag.png';
+import img5 from '../Assets/chirag.png'; 
 import img6 from '../Assets/Prajagopal.jpeg';
 import img7 from '../Assets/Nandhini.jpeg';
 import img8 from '../Assets/student.jpeg';
@@ -14,7 +14,7 @@ import Footer from '../Components/Footer';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
 const Team = () => {
-  const teamMembers = [
+  const teamMembers = [ 
     {
       name: "Dr. Boby George",
       title: "Professor",
